@@ -1,0 +1,8 @@
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestClient\TcpTestClient\bin\Debug\TcpTestClient.exe
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestClient\TcpTestClient\bin\Debug\TcpTestClient.pdb
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestClient\TcpTestClient\obj\Debug\TcpTestClient.csprojResolveAssemblyReference.cache
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestClient\TcpTestClient\obj\Debug\TcpTestClient.Form1.resources
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestClient\TcpTestClient\obj\Debug\TcpTestClient.Properties.Resources.resources
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestClient\TcpTestClient\obj\Debug\TcpTestClient.csproj.GenerateResource.Cache
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestClient\TcpTestClient\obj\Debug\TcpTestClient.exe
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestClient\TcpTestClient\obj\Debug\TcpTestClient.pdb

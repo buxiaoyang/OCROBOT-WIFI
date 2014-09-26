@@ -1,0 +1,6 @@
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestServer\TcpTestServer\bin\Debug\TcpTestServer.exe
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestServer\TcpTestServer\bin\Debug\TcpTestServer.pdb
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestServer\TcpTestServer\obj\Debug\TcpTestServer.csprojResolveAssemblyReference.cache
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestServer\TcpTestServer\obj\Debug\TcpTestServer.exe
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestServer\TcpTestServer\obj\Debug\TcpTestServer.pdb
+C:\Users\bux\Projects\Visual Studio 2013\TcpTestServer\TcpTestServer\bin\Debug\TcpTestServer.exe.config
