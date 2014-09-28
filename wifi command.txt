@@ -58,11 +58,48 @@ AT+UpDate=142
 41 54 2b 55 70 44 61 74 65 3d 31 34 32 0d 0a 
 
 
-GET /IOT/TemperatureInsert.php?user=buxiaoyang&title=nanjingOffice&value=-25.36 HTTP/1.1
+GET /IOT/TemperatureInsert.php?user=buxiaoyang&title=nanjingOffice&value=098.76 HTTP/1.1
 Host: www.buxiaoyang.com
 Connection: Keep-Alive
 
-47 45 54 20 2f 49 4f 54 2f 54 65 6d 70 65 72 61 74 75 72 65 49 6e 73 65 72 74 2e 70 68 70 3f 75 73 65 72 3d 62 75 78 69 61 6f 79 61 6e 67 26 74 69 74 6c 65 3d 6e 61 6e 6a 69 6e 67 4f 66 66 69 63 65 26 76 61 6c 75 65 3d 2d 32 35 2e 33 36 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65 65 70 2d 41 6c 69 76 65 0d 0a 0d 0a   
+47 45 54 20 2f 49 4f 54 2f 54 65 6d 70 65 72 61 74 75 72 65 49 6e 73 65 72 74 2e 70 68 70 3f 75 73 65 72 3d 62 75 78 69 61 6f 79 61 6e 67 26 74 69 74 6c 65 3d 6e 61 6e 6a 69 6e 67 4f 66 66 69 63 65 26 76 61 6c 75 65 3d 30 39 38 2e 37 36 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65 65 70 2d 41 6c 69 76 65 0d 0a 0d 0a   
+
+
+
+
+Office2:
+
+AT+Reset
+41 54 2b 52 65 73 65 74 0d 0a 
+
+AT+MODE=1
+41 54 2b 4d 4f 44 45 3d 31 0d 0a
+
+AT+JoinAP="hpguest",""
+41 54 2b 4a 6f 69 6e 41 50 3d 22 68 70 67 75 65 73 74 22 2c 22 22 0d 0a 
+
+AT+ShowIP
+41 54 2b 53 68 6f 77 49 50 0d 0a 
+
+AT+NewSTA="TCP","www.buxiaoyang.com",80
+41 54 2b 4e 65 77 53 54 41 3d 22 54 43 50 22 2c 22 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 22 2c 38 30 0d 0a
+
+AT+UpDate=496
+41 54 2b 55 70 44 61 74 65 3d 34 39 36 0d 0a 
+
+
+GET http://www.buxiaoyang.com/IOT/TemperatureInsert.php?user=buxiaoyang&title=nanjingOffice&value=-56.78 HTTP/1.1
+Host: www.buxiaoyang.com
+Proxy-Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4
+
+47 45 54 20 68 74 74 70 3a 2f 2f 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 2f 49 4f 54 2f 54 65 6d 70 65 72 61 74 75 72 65 49 6e 73 65 72 74 2e 70 68 70 3f 75 73 65 72 3d 62 75 78 69 61 6f 79 61 6e 67 26 74 69 74 6c 65 3d 6e 61 6e 6a 69 6e 67 4f 66 66 69 63 65 26 76 61 6c 75 65 3d 2d 35 36 2e 37 38 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 0d 0a 50 72 6f 78 79 2d 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 6b 65 65 70 2d 61 6c 69 76 65 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61 78 2d 61 67 65 3d 30 0d 0a 41 63 63 65 70 74 3a 20 74 65 78 74 2f 68 74 6d 6c 2c 61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 68 74 6d 6c 2b 78 6d 6c 2c 61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 6d 6c 3b 71 3d 30 2e 39 2c 69 6d 61 67 65 2f 77 65 62 70 2c 2a 2f 2a 3b 71 3d 30 2e 38 0d 0a 55 73 65 72 2d 41 67 65 6e 74 3a 20 4d 6f 7a 69 6c 6c 61 2f 35 2e 30 20 28 57 69 6e 64 6f 77 73 20 4e 54 20 36 2e 31 3b 20 57 4f 57 36 34 29 20 41 70 70 6c 65 57 65 62 4b 69 74 2f 35 33 37 2e 33 36 20 28 4b 48 54 4d 4c 2c 20 6c 69 6b 65 20 47 65 63 6b 6f 29 20 43 68 72 6f 6d 65 2f 33 37 2e 30 2e 32 30 36 32 2e 31 32 34 20 53 61 66 61 72 69 2f 35 33 37 2e 33 36 0d 0a 41 63 63 65 70 74 2d 45 6e 63 6f 64 69 6e 67 3a 20 67 7a 69 70 2c 64 65 66 6c 61 74 65 2c 73 64 63 68 0d 0a 41 63 63 65 70 74 2d 4c 61 6e 67 75 61 67 65 3a 20 7a 68 2d 43 4e 2c 7a 68 3b 71 3d 30 2e 38 2c 65 6e 3b 71 3d 30 2e 36 2c 7a 68 2d 54 57 3b 71 3d 30 2e 34 0d 0a 0d 0a 
+
+
 
 
 
