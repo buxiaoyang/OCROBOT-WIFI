@@ -1,5 +1,7 @@
-
+﻿
 AT+Reset
+41 54 2b 52 65 73 65 74 0d 0a 
+
 
 AT+MODE=1
 
@@ -8,14 +10,14 @@ AT+JoinAP="buxiaoyang","buxiaoyang@123"
 AT+ShowIP
 
 AT+NewSTA="TCP","www.buxiaoyang.com",80
-
+41 54 2b 4e 65 77 53 54 41 3d 22 54 43 50 22 2c 22 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 22 2c 38 30 0d 0a
 
 
 例子1（成功运行）：
 AT+UpDate=132
 41 54 2b 55 70 44 61 74 65 3d 31 33 32 0d 0a 
 
-GET /IOT/TemperatureInsert.php?user=buxiaoyang&title=hello&value=34.5 HTTP/1.1
+GET /IOT/TemperatureInsert.php?user=buxiaoyang&title=nanjingOffice&value=34.5 HTTP/1.1
 Host: www.buxiaoyang.com
 Connection: Keep-Alive
 47 45 54 20 2f 49 4f 54 2f 54 65 6d 70 65 72 61 74 75 72 65 49 6e 73 65 72 74 2e 70 68 70 3f 75 73 65 72 3d 62 75 78 69 61 6f 79 61 6e 67 26 74 69 74 6c 65 3d 68 65 6c 6c 6f 26 76 61 6c 75 65 3d 33 34 2e 35 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65 65 70 2d 41 6c 69 76 65 0d 0a 0d 0a
@@ -29,4 +31,38 @@ Host: www.buxiaoyang.com
 Connection: Keep-Alive
 
 47 45 54 20 2f 49 4f 54 2f 54 65 6d 70 65 72 61 74 75 72 65 49 6e 73 65 72 74 2e 70 68 70 3f 75 73 65 72 3d 62 75 78 69 61 6f 79 61 6e 67 26 74 69 74 6c 65 3d 6e 61 6e 6a 69 6e 67 4f 66 66 69 63 65 26 76 61 6c 75 65 3d 2d 33 34 2e 35 38 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65 65 70 2d 41 6c 69 76 65 0d 0a 0d 0a  
+
+
+
+
+
+
+Office(测试可用):
+
+AT+Reset
+41 54 2b 52 65 73 65 74 0d 0a 
+
+AT+MODE=1
+41 54 2b 4d 4f 44 45 3d 31 0d 0a
+
+AT+JoinAP="hpguest",""
+41 54 2b 4a 6f 69 6e 41 50 3d 22 68 70 67 75 65 73 74 22 2c 22 22 0d 0a 
+
+AT+ShowIP
+41 54 2b 53 68 6f 77 49 50 0d 0a 
+
+AT+NewSTA="TCP","www.buxiaoyang.com",80
+41 54 2b 4e 65 77 53 54 41 3d 22 54 43 50 22 2c 22 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 22 2c 38 30 0d 0a
+
+AT+UpDate=142
+41 54 2b 55 70 44 61 74 65 3d 31 34 32 0d 0a 
+
+
+GET /IOT/TemperatureInsert.php?user=buxiaoyang&title=nanjingOffice&value=-25.36 HTTP/1.1
+Host: www.buxiaoyang.com
+Connection: Keep-Alive
+
+47 45 54 20 2f 49 4f 54 2f 54 65 6d 70 65 72 61 74 75 72 65 49 6e 73 65 72 74 2e 70 68 70 3f 75 73 65 72 3d 62 75 78 69 61 6f 79 61 6e 67 26 74 69 74 6c 65 3d 6e 61 6e 6a 69 6e 67 4f 66 66 69 63 65 26 76 61 6c 75 65 3d 2d 32 35 2e 33 36 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 77 77 77 2e 62 75 78 69 61 6f 79 61 6e 67 2e 63 6f 6d 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65 65 70 2d 41 6c 69 76 65 0d 0a 0d 0a   
+
+
 
