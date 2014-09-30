@@ -4,6 +4,8 @@
 
 uint timer1s = 0;
 
+uint timeCount = 0;
+
 void  timer_init(void)
 {
     TIM1_PSCRH = 0;
@@ -23,6 +25,7 @@ __interrupt void TIM1_OVR_UIF(void)
     if(timer1s > 1000)
     {
         //led_negate();
+        timeCount++;
         timer1s = 0;
     }
 }

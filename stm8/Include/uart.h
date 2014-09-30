@@ -5,5 +5,8 @@
 void  uart1_init(void);
 void  uart1_send(uchar dat);
 int putchar(int c);
+//void uart1_sendString(uchar *dat);
 
+extern uchar receiveBuf[100];
+extern uchar receiveIndex;
 #endif
