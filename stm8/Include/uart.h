@@ -4,5 +4,6 @@
 
 void  uart1_init(void);
 void  uart1_send(uchar dat);
+int putchar(int c);
 
 #endif

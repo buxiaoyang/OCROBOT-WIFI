@@ -38,6 +38,16 @@
       <file>$PROJ_DIR$\Debug\Obj\main.pbd</file>
       <file>$PROJ_DIR$\Debug\Obj\ds18b20.o</file>
       <file>$PROJ_DIR$\Debug\Obj\ds18b20.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
@@ -197,11 +207,11 @@
       <inputs>
         <tool>
           <name>ICCSTM8</name>
-          <file> 13 0 22 5 7 6 23</file>
+          <file> 13 0 22 5 7 6 23 33 37 36 34 40 35 41 38 39 32</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 13 0 22 5 7 6 23</file>
+          <file> 13 0 22 5 7 6 23 33 37 36 34 40 35 41 38 39 32</file>
         </tool>
       </inputs>
     </file>

@@ -86,7 +86,7 @@ float DS18B20_ReadTemperature(void)
 {
     uchar temp = 0;
     float t = 0;
-    
+    asm("sim");    //关总中断
     DS18B20_Init();
     DS18B20_WriteByte(0xcc);
     DS18B20_WriteByte(0x44);
@@ -99,6 +99,7 @@ float DS18B20_ReadTemperature(void)
     t = (((temp & 0xf0) >> 4) + (temp & 0x07) * 0.125); 
     temp = DS18B20_ReadByte();
     t += ((temp & 0x0f) << 4);
+    asm("rim");    //开总中断
     return t;
 }
 

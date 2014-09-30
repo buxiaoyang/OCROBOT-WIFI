@@ -19,6 +19,12 @@ void  uart1_send(uchar dat)
     UART1_DR = dat;
 }
 
+int putchar(int c)
+{
+    uart1_send(c);
+    return c;
+}
+
 #pragma   vector = UART1_R_RXNE_vector
 __interrupt void uart1rxd(void)
 {
