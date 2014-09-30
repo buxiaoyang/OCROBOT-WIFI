@@ -3,7 +3,9 @@
 
 #include "parameters.h"
 
-void  delay_ms(uint  ms);
+void delay_ms(uint  ms);
+
+void delay_10us(uint us);
 
 void led_init(void);
 

@@ -1574,6 +1574,9 @@
       <name>$PROJ_DIR$\Include\basefunc.h</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\Include\ds18b20.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Include\parameters.h</name>
     </file>
     <file>
@@ -1587,6 +1590,9 @@
     <name>Source</name>
     <file>
       <name>$PROJ_DIR$\Source\basefunc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\ds18b20.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Source\main.c</name>

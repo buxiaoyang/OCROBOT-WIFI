@@ -1,13 +1,20 @@
 #include "iostm8s103F3.h"
 #include "../Include/basefunc.h"
 
+void  delay_10us(uint us)
+{
+    uchar i;
+    while(--us)
+    {
+         for(i=2;i!=0;i--);
+    }
+}
+
 void  delay_ms(uint  ms)
 {
-    uchar  i,j;
     while(ms--)
     {
-        for(i=4;i!=0;i--)
-          for(j=100;j!=0;j--);
+        delay_10us(100);
     }
 }
 

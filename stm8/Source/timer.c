@@ -22,7 +22,7 @@ __interrupt void TIM1_OVR_UIF(void)
     timer1s ++;
     if(timer1s > 1000)
     {
-        led_negate();
+        //led_negate();
         timer1s = 0;
     }
 }
