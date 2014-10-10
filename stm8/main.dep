@@ -6,65 +6,61 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Source\basefunctions.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\basefunctions.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\templproj.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\basefunctions.o</file>
+      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
       <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
       <file>$PROJ_DIR$\Debug\Exe\main.hex</file>
       <file>$TOOLKIT_DIR$\config\lnkstm8s103f3.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\basefunc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\basefunc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iostm8s103F3.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ds18b20.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ds18b20.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Source\basefunctions.c</file>
+      <file>$PROJ_DIR$\Source\main.c</file>
+      <file>$PROJ_DIR$\Include\ds18b20.h</file>
       <file>$PROJ_DIR$\Include\parameters.h</file>
+      <file>$PROJ_DIR$\Include\basefunc.h</file>
       <file>$PROJ_DIR$\Include\timer.h</file>
       <file>$PROJ_DIR$\Include\uart.h</file>
       <file>$PROJ_DIR$\Source\basefunc.c</file>
       <file>$PROJ_DIR$\Source\ds18b20.c</file>
       <file>$PROJ_DIR$\Source\uart.c</file>
       <file>$PROJ_DIR$\Source\timer.c</file>
-      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\ds18b20.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\ds18b20.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\basefunctions.o</file>
-      <file>$PROJ_DIR$\Source\main.c</file>
-      <file>$PROJ_DIR$\Debug\Exe\templproj.out</file>
-      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\basefunc.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$PROJ_DIR$\Include\basefunc.h</file>
-      <file>$PROJ_DIR$\Include\ds18b20.h</file>
-      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\basefunc.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\iostm8s103F3.h</file>
-      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\basefunctions.pbi</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\Source\basefunctions.c</name>
+      <name>$PROJ_DIR$\Debug\Exe\templproj.out</name>
       <outputs>
         <tool>
-          <name>ICCSTM8</name>
-          <file> 22</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 1</file>
+          <name>OBJCOPY</name>
+          <file> 5</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 40 13</file>
+          <name>ILINK</name>
+          <file> 6 11 27 18 13 7 4 21</file>
         </tool>
       </inputs>
     </file>
@@ -73,99 +69,49 @@
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 24</file>
+          <file> 1</file>
         </tool>
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Source\basefunc.c</name>
+      <name>$PROJ_DIR$\main.c</name>
       <outputs>
         <tool>
           <name>ICCSTM8</name>
-          <file> 26</file>
+          <file> 18</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 39</file>
+          <file> 12</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCSTM8</name>
-          <file> 40 13 34 6</file>
+          <file> 25 3</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 40 13 34 6</file>
+          <file> 25 3</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Source\ds18b20.c</name>
+      <name>$PROJ_DIR$\Source\basefunctions.c</name>
       <outputs>
         <tool>
           <name>ICCSTM8</name>
-          <file> 16</file>
+          <file> 2</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 17</file>
+          <file> 41</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICCSTM8</name>
-          <file> 40 13 35 6 34</file>
-        </tool>
-        <tool>
           <name>BICOMP</name>
-          <file> 40 13 35 6 34</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Source\uart.c</name>
-      <outputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 3</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 37</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 40 13 8 6</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 40 13 8 6</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Source\timer.c</name>
-      <outputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 28</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 29</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 40 13 7 6 34</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 40 13 7 6 34</file>
+          <file> 25 3</file>
         </tool>
       </inputs>
     </file>
@@ -174,59 +120,113 @@
       <outputs>
         <tool>
           <name>ICCSTM8</name>
-          <file> 14</file>
+          <file> 18</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 27</file>
+          <file> 12</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCSTM8</name>
-          <file> 40 13 34 6 8 7 35 38 21 20 18 32 19 33 30 31 25</file>
+          <file> 25 3 34 33 36 35 32 22 0 29 16 15 17 20 8 10 9</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 40 13 34 6 8 7 35 38 21 20 18 32 19 33 30 31 25</file>
+          <file> 25 3 34 33 36 35 32 22 0 29 16 15 17 20 8 10 9</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\templproj.out</name>
+      <name>$PROJ_DIR$\Source\basefunc.c</name>
       <outputs>
         <tool>
-          <name>OBJCOPY</name>
-          <file> 4</file>
+          <name>ICCSTM8</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ILINK</name>
-          <file> 5 26 16 14 28 3 2 36</file>
+          <name>ICCSTM8</name>
+          <file> 25 3 34 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 3 34 33</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\main.c</name>
+      <name>$PROJ_DIR$\Source\ds18b20.c</name>
       <outputs>
         <tool>
           <name>ICCSTM8</name>
-          <file> 14</file>
+          <file> 27</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 27</file>
+          <file> 28</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCSTM8</name>
-          <file> 40 13</file>
+          <file> 25 3 32 33 34</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 40 13</file>
+          <file> 25 3 32 33 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 25 3 36 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 3 36 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 25 3 35 33 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 3 35 33 34</file>
         </tool>
       </inputs>
     </file>

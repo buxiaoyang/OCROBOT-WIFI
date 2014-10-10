@@ -26,7 +26,7 @@ main()
     while (1)
     {
         led_negate();
-        if(timeCount > 3600)
+        if(timeCount > 1000)
         {
             temp = DS18B20_ReadTemperature();
             timeCount = 0;
